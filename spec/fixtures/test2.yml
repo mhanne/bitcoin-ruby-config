@@ -1,0 +1,5 @@
+all:
+  all: bar
+
+foo:
+  test: qux

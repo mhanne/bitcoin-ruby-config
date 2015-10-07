@@ -1,0 +1,12 @@
+all:
+  all: foo
+
+test:
+  foo: bar
+  baz: qux
+
+foo:
+  test: bar
+
+bar:
+  test: foo
